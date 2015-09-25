@@ -45,6 +45,7 @@ public class Clock extends ActionBarActivity implements View.OnClickListener,Rad
         toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
         showInstructionDialogBox();
+        //Initialize Layout
         initializeLayout();
 
     }
