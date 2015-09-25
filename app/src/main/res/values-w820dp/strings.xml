@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="group_matching">Group Matching</string>
+    <string name="reverseNumberRecallInstruction">Combination of the numbers will be spoken. You have to remember and type or speak the numbers in Reverse order. Eg Spoken 789 you will  enter 987 .</string>
+    <string name="groupMatchingInstruction">Drag the words that belong to the similar group or has an association.</string>
+</resources>

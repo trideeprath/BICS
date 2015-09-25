@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sugoilabs.bics" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:clearTaskOnLaunch="true"
+        android:icon="@drawable/welcom_screen_logo_black_border"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Step1"
+            android:label="@string/title_activity_step1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Step2"
+            android:label="@string/title_activity_step2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Step4"
+            android:label="@string/title_activity_step4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PrimaryColor"
+            android:label="@string/title_activity_step5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PictureFlash"
+            android:label="@string/title_activity_picture_flash"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PictureFlashAnswer"
+            android:label="@string/title_activity_picture_flash_answer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Clock"
+            android:label="@string/title_activity_clock"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WordAudioFlash"
+            android:label="@string/title_activity_word_audio_flash"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WordAudioFlashAnswer"
+            android:label="@string/title_activity_word_audio_flash_answer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Pattern"
+            android:label="@string/title_activity_pattern" >
+        </activity>
+        <activity
+            android:name=".PatternShow"
+            android:label="@string/title_activity_pattern_layout"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".patternDraw"
+            android:label="@string/title_activity_pattern_draw"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TraumaticInjury"
+            android:label="@string/title_activity_traumatic_injury"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FinalScreen"
+            android:label="@string/title_activity_final_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrawingActivity"
+            android:label="@string/title_activity_draw_rectangle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FalsePositiveCaution"
+            android:label="@string/title_activity_false_positive_caution"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PatternShowLayout"
+            android:label="@string/title_activity_pattern_show_layout"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".rectangleShow"
+            android:label="@string/title_activity_rectangle_show"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SimilarPicture"
+            android:label="@string/title_activity_similar_picture"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelectShapes"
+            android:label="@string/title_activity_select_shapes"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelectLetter"
+            android:label="@string/title_activity_select_letter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".reportDisplay"
+            android:label="@string/title_activity_report_display"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TermsCondition"
+            android:label="@string/title_activity_terms_condition"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InitialQuestionForm"
+            android:label="@string/title_activity_initial_question_form" >
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name=".PictureFlashAnswerImmediate"
+            android:label="@string/title_activity_picture_flash_answer_immediate" >
+        </activity>
+        <activity
+            android:name=".WordAudioFlashAnswerImmediate"
+            android:label="@string/title_activity_word_audio_flash_answer_immediate" >
+        </activity>
+        <activity
+            android:name=".NumberRecall"
+            android:label="@string/title_activity_number_recall" >
+        </activity>
+        <activity
+            android:name=".ReverseNumberRecall"
+            android:label="@string/title_activity_reverse_number_recall" >
+        </activity>
+        <activity
+            android:name=".Orientation"
+            android:label="@string/title_activity_orientation" >
+        </activity>
+        <activity
+            android:name=".GroupMatching"
+            android:label="@string/title_activity_group_matching" >
+        </activity>
+    </application>
+
+</manifest>
